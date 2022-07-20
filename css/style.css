@@ -1,12 +1,13 @@
-html {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
     background: url(background.jpg);
+    max-width: 100%;
 }
 
 .main {
@@ -18,7 +19,7 @@ body {
 .logo-alura{
     position: absolute;
     left: 30px;
-    right: 37.43%;
+    right: 38%;
     top: 25px;
     bottom: 0%;
     transition: 0.5s all;
@@ -36,28 +37,21 @@ body {
     height: 400px;
     left: 15%;
     top: 168px;
-  
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 150%;
     justify-content: baseline;
-    /* identical to box height, or 48px */
     resize: none;
-  
-    /* Dark blue/dark-blue-300 */
-  
-    color: #0A3871;
     background: transparent;
     border: none;
 }
 
 .text-input , ::placeholder{
-    font-family: 'Inter';
     background: none;
     color: #6c7784;
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 32px;
     line-height: 150%;
     outline: none;
@@ -72,13 +66,11 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    
     position: absolute;
     width: auto;
     height: 18px;
     left: 13%;
-    top: 651px;
-    
+    top: 700px;  
 }
 
 .img-alerta{
@@ -97,17 +89,10 @@ body {
     top: 0px;
     padding-left: 25px;
     font-weight: 600;
-    
-    font-family: Inter;
     font-style: normal;
     font-size:20px;
     line-height: 100%;
-  
-    /* identical to box height, or 18px */
-    
-    
-    /* Gray/gray-300 */
-    color: #495057;
+    color: #7a7b7b;
 }
 
 .botones-div{
@@ -115,12 +100,11 @@ body {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    
     position: absolute;
     width: 680px;
     height: 67px;
     left: 12%;
-    top: 685px;
+    top: 750px;
 }
 
 .boton-encriptar {
@@ -129,31 +113,23 @@ body {
     flex-direction: row;
     align-items: flex-start;
     padding: 24px;
-  
     position: static;
     width: 328px;
     height: 67px;
     left: 0px;
     top: 0px;
-  
-    /* Dark blue/dark-blue-300 */
-  
     background: rgba(0, 0, 0, 0.3);
     border-radius: 24px;
     transition: 0.2s;
     cursor: pointer;
-  
-    /* Inside Auto Layout */
-  
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 24px;
     flex-grow: 0;
-    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 19px;
     text-align: center;
     justify-content: center; 
@@ -177,34 +153,24 @@ body {
     flex-direction: row;
     align-items: flex-start;
     padding: 24px;
-  
     position: static;
     width: 328px;
     height: 67px;
     left: 352px;
     top: 0px;
-  
-    /* Light gray */
-  
     background: rgba(0, 0, 0, 0.3);
-    /* Dark blue/dark-blue-300 */
-  
     border: none;
     box-sizing: border-box;
     border-radius: 24px;
     transition: 0.2s;
     cursor: pointer;
-    /* Inside Auto Layout */
-  
     flex: none;
     order: 1;
     flex-grow: 0;
     margin: 0px 24px;
-  
-    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 19px;
     text-align: center;
     color: rgba(163, 163, 163, 0.825);
@@ -226,16 +192,12 @@ body {
     position: absolute;
     width: 400px;
     height: 750px;
-    left: 70%;
-    top: 20px;
+    left: 75%;
+    top: 70px;
     padding-left: 20px;
     padding-top: 80px;
-    /* White */
-  
     background: rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
-    /* shadow */
-  
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
 }
@@ -245,29 +207,17 @@ body {
     height: 58px;
     left: 0px;
     top: 0px;
-  
-    font-family: Inter;
     font-style: normal;
     font-weight: bold;
     font-size: 27px;
     line-height: 120%;
-    /* or 29px */
-  
     text-align: center;
-  
-    /* Gray/gray-500 */
-  
-    color: #343A40;
-    
-  
-  
-  /* Inside Auto Layout */
-  
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 16px 0px;
+    color: #6f7276;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
 }
   
 .message-box h3{
@@ -276,24 +226,12 @@ body {
     height: 48px;
     left: 0px;
     top: 74px;
-  
-    font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
-    /* or 24px */
-  
     text-align: center;
-  
-    /* Gray/gray-300 */
-  
-    color: #495057;
-    
-  
-  
-    /* Inside Auto Layout */
-  
+    color: #6f7276;
     flex: none;
     order: 1;
     align-self: stretch;
@@ -350,7 +288,7 @@ body {
     box-sizing: border-box;
     border-radius: 24px;
    
-    font-family: 'Montserrat', sans-serif;
+    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -396,8 +334,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     font-weight: bold;
-    
-
     text-align: center;
     color: rgba(0, 0, 0, 0.825);
     /*float: left;*/
@@ -424,6 +360,8 @@ body {
 }
 
 @media only screen and (min-width: 1224px) and (max-width: 1590px){
+
+    
     .main{
         height:100%;
     }
@@ -521,7 +459,7 @@ body {
       
     }
     .message-box-div img{
-      display: none;
+      
     }
     .btn-copiar{
       top:24rem;
@@ -599,7 +537,7 @@ body {
         
     }
     .message-box-div img{
-        display: none;
+        
     }
     .boton-copiar{
         top:8rem;
